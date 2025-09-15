@@ -1,0 +1,2002 @@
+[
+  {
+    "Rank": 1,
+    "Title": "The Shawshank Redemption",
+    "Release": 1994,
+    "Runtime": "2h 22m",
+    "Rated": "R",
+    "Ratings": 9.3
+  },
+  {
+    "Rank": 2,
+    "Title": "The Godfather",
+    "Release": 1972,
+    "Runtime": "2h 55m",
+    "Rated": "R",
+    "Ratings": 9.2
+  },
+  {
+    "Rank": 3,
+    "Title": "The Dark Knight",
+    "Release": 2008,
+    "Runtime": "2h 32m",
+    "Rated": "PG-13",
+    "Ratings": 9
+  },
+  {
+    "Rank": 4,
+    "Title": "The Godfather Part II",
+    "Release": 1974,
+    "Runtime": "3h 22m",
+    "Rated": "R",
+    "Ratings": 9
+  },
+  {
+    "Rank": 5,
+    "Title": "12 Angry Men",
+    "Release": 1957,
+    "Runtime": "1h 36m",
+    "Rated": "Approved",
+    "Ratings": 9
+  },
+  {
+    "Rank": 6,
+    "Title": "The Lord of the Rings: The Return of the King",
+    "Release": 2003,
+    "Runtime": "3h 21m",
+    "Rated": "PG-13",
+    "Ratings": 9
+  },
+  {
+    "Rank": 7,
+    "Title": "Schindler's List",
+    "Release": 1993,
+    "Runtime": "3h 15m",
+    "Rated": "R",
+    "Ratings": 9
+  },
+  {
+    "Rank": 8,
+    "Title": "Pulp Fiction",
+    "Release": 1994,
+    "Runtime": "2h 34m",
+    "Rated": "R",
+    "Ratings": 8.9
+  },
+  {
+    "Rank": 9,
+    "Title": "The Lord of the Rings: The Fellowship of the Ring",
+    "Release": 2001,
+    "Runtime": "2h 58m",
+    "Rated": "PG-13",
+    "Ratings": 8.9
+  },
+  {
+    "Rank": 10,
+    "Title": "The Good, the Bad and the Ugly",
+    "Release": 1966,
+    "Runtime": "2h 58m",
+    "Rated": "R",
+    "Ratings": 8.8
+  },
+  {
+    "Rank": 11,
+    "Title": "Forrest Gump",
+    "Release": 1994,
+    "Runtime": "2h 22m",
+    "Rated": "PG-13",
+    "Ratings": 8.8
+  },
+  {
+    "Rank": 12,
+    "Title": "The Lord of the Rings: The Two Towers",
+    "Release": 2002,
+    "Runtime": "2h 59m",
+    "Rated": "PG-13",
+    "Ratings": 8.8
+  },
+  {
+    "Rank": 13,
+    "Title": "Fight Club",
+    "Release": 1999,
+    "Runtime": "2h 19m",
+    "Rated": "R",
+    "Ratings": 8.8
+  },
+  {
+    "Rank": 14,
+    "Title": "Inception",
+    "Release": 2010,
+    "Runtime": "2h 28m",
+    "Rated": "PG-13",
+    "Ratings": 8.8
+  },
+  {
+    "Rank": 15,
+    "Title": "Star Wars: Episode V - The Empire Strikes Back",
+    "Release": 1980,
+    "Runtime": "2h 4m",
+    "Rated": "PG",
+    "Ratings": 8.7
+  },
+  {
+    "Rank": 16,
+    "Title": "The Matrix",
+    "Release": 1999,
+    "Runtime": "2h 16m",
+    "Rated": "R",
+    "Ratings": 8.7
+  },
+  {
+    "Rank": 17,
+    "Title": "Goodfellas",
+    "Release": 1990,
+    "Runtime": "2h 25m",
+    "Rated": "R",
+    "Ratings": 8.7
+  },
+  {
+    "Rank": 18,
+    "Title": "One Flew Over the Cuckoo's Nest",
+    "Release": 1975,
+    "Runtime": "2h 13m",
+    "Rated": "R",
+    "Ratings": 8.7
+  },
+  {
+    "Rank": 19,
+    "Title": "Interstellar",
+    "Release": 2014,
+    "Runtime": "2h 49m",
+    "Rated": "PG-13",
+    "Ratings": 8.7
+  },
+  {
+    "Rank": 20,
+    "Title": "Se7en",
+    "Release": 1995,
+    "Runtime": "2h 7m",
+    "Rated": "R",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 21,
+    "Title": "It's a Wonderful Life",
+    "Release": 1946,
+    "Runtime": "2h 10m",
+    "Rated": "PG",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 22,
+    "Title": "Seven Samurai",
+    "Release": 1954,
+    "Runtime": "3h 27m",
+    "Rated": "Not Rated",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 23,
+    "Title": "The Silence of the Lambs",
+    "Release": 1991,
+    "Runtime": "1h 58m",
+    "Rated": "R",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 24,
+    "Title": "Saving Private Ryan",
+    "Release": 1998,
+    "Runtime": "2h 49m",
+    "Rated": "R",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 25,
+    "Title": "City of God",
+    "Release": 2002,
+    "Runtime": "2h 10m",
+    "Rated": "R",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 26,
+    "Title": "The Green Mile",
+    "Release": 1999,
+    "Runtime": "3h 9m",
+    "Rated": "R",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 27,
+    "Title": "Life Is Beautiful",
+    "Release": 1997,
+    "Runtime": "1h 56m",
+    "Rated": "PG-13",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 28,
+    "Title": "Terminator 2: Judgment Day",
+    "Release": 1991,
+    "Runtime": "2h 17m",
+    "Rated": "R",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 29,
+    "Title": "Star Wars: Episode IV - A New Hope",
+    "Release": 1977,
+    "Runtime": "2h 1m",
+    "Rated": "PG",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 30,
+    "Title": "Back to the Future",
+    "Release": 1985,
+    "Runtime": "1h 56m",
+    "Rated": "PG",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 31,
+    "Title": "Spirited Away",
+    "Release": 2001,
+    "Runtime": "2h 4m",
+    "Rated": "PG",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 32,
+    "Title": "The Pianist",
+    "Release": 2002,
+    "Runtime": "2h 30m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 33,
+    "Title": "Gladiator",
+    "Release": 2000,
+    "Runtime": "2h 35m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 34,
+    "Title": "Parasite",
+    "Release": 2019,
+    "Runtime": "2h 12m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 35,
+    "Title": "Psycho",
+    "Release": 1960,
+    "Runtime": "1h 49m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 36,
+    "Title": "The Lion King",
+    "Release": 1994,
+    "Runtime": "1h 28m",
+    "Rated": "G",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 37,
+    "Title": "Grave of the Fireflies",
+    "Release": 1988,
+    "Runtime": "1h 28m",
+    "Rated": "Not Rated",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 38,
+    "Title": "The Departed",
+    "Release": 2006,
+    "Runtime": "2h 31m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 39,
+    "Title": "Whiplash",
+    "Release": 2014,
+    "Runtime": "1h 46m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 40,
+    "Title": "American History X",
+    "Release": 1998,
+    "Runtime": "1h 59m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 41,
+    "Title": "Harakiri",
+    "Release": 1962,
+    "Runtime": "2h 13m",
+    "Rated": "Not Rated",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 42,
+    "Title": "The Prestige",
+    "Release": 2006,
+    "Runtime": "2h 10m",
+    "Rated": "PG-13",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 43,
+    "Title": "Léon: The Professional",
+    "Release": 1994,
+    "Runtime": "1h 50m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 44,
+    "Title": "Spider-Man: Across the Spider-Verse",
+    "Release": 2023,
+    "Runtime": "2h 20m",
+    "Rated": "PG",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 45,
+    "Title": "Casablanca",
+    "Release": 1942,
+    "Runtime": "1h 42m",
+    "Rated": "PG",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 46,
+    "Title": "The Usual Suspects",
+    "Release": 1995,
+    "Runtime": "1h 46m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 47,
+    "Title": "The Intouchables",
+    "Release": 2011,
+    "Runtime": "1h 52m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 48,
+    "Title": "Cinema Paradiso",
+    "Release": 1988,
+    "Runtime": "2h 54m",
+    "Rated": "PG",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 49,
+    "Title": "Modern Times",
+    "Release": 1936,
+    "Runtime": "1h 27m",
+    "Rated": "G",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 50,
+    "Title": "Alien",
+    "Release": 1979,
+    "Runtime": "1h 57m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 51,
+    "Title": "Rear Window",
+    "Release": 1954,
+    "Runtime": "1h 52m",
+    "Rated": "PG",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 52,
+    "Title": "Once Upon a Time in the West",
+    "Release": 1968,
+    "Runtime": "2h 46m",
+    "Rated": "PG-13",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 53,
+    "Title": "Django Unchained",
+    "Release": 2012,
+    "Runtime": "2h 45m",
+    "Rated": "R",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 54,
+    "Title": "Dune: Part Two",
+    "Release": 2024,
+    "Runtime": "2h 46m",
+    "Rated": "PG-13",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 55,
+    "Title": "City Lights",
+    "Release": 1931,
+    "Runtime": "1h 27m",
+    "Rated": "G",
+    "Ratings": 8.5
+  },
+  {
+    "Rank": 56,
+    "Title": "Apocalypse Now",
+    "Release": 1979,
+    "Runtime": "2h 27m",
+    "Rated": "R",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 57,
+    "Title": "Memento",
+    "Release": 2000,
+    "Runtime": "1h 53m",
+    "Rated": "R",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 58,
+    "Title": "WALL·E",
+    "Release": 2008,
+    "Runtime": "1h 38m",
+    "Rated": "G",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 59,
+    "Title": "Raiders of the Lost Ark",
+    "Release": 1981,
+    "Runtime": "1h 55m",
+    "Rated": "PG",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 60,
+    "Title": "The Lives of Others",
+    "Release": 2006,
+    "Runtime": "2h 17m",
+    "Rated": "R",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 61,
+    "Title": "Avengers: Infinity War",
+    "Release": 2018,
+    "Runtime": "2h 29m",
+    "Rated": "PG-13",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 62,
+    "Title": "Sunset Boulevard",
+    "Release": 1950,
+    "Runtime": "1h 50m",
+    "Rated": "Approved",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 63,
+    "Title": "Spider-Man: Into the Spider-Verse",
+    "Release": 2018,
+    "Runtime": "1h 57m",
+    "Rated": "PG",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 64,
+    "Title": "Paths of Glory",
+    "Release": 1957,
+    "Runtime": "1h 28m",
+    "Rated": "Approved",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 65,
+    "Title": "Witness for the Prosecution",
+    "Release": 1957,
+    "Runtime": "1h 56m",
+    "Rated": "Approved",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 66,
+    "Title": "12th Fail",
+    "Release": 2023,
+    "Runtime": "2h 27m",
+    "Rated": "Not Rated",
+    "Ratings": 8.8
+  },
+  {
+    "Rank": 67,
+    "Title": "The Shining",
+    "Release": 1980,
+    "Runtime": "2h 26m",
+    "Rated": "R",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 68,
+    "Title": "The Great Dictator",
+    "Release": 1940,
+    "Runtime": "2h 5m",
+    "Rated": "G",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 69,
+    "Title": "Aliens",
+    "Release": 1986,
+    "Runtime": "2h 17m",
+    "Rated": "R",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 70,
+    "Title": "Inglourious Basterds",
+    "Release": 2009,
+    "Runtime": "2h 33m",
+    "Rated": "R",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 71,
+    "Title": "The Dark Knight Rises",
+    "Release": 2012,
+    "Runtime": "2h 44m",
+    "Rated": "PG-13",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 72,
+    "Title": "Coco",
+    "Release": 2017,
+    "Runtime": "1h 45m",
+    "Rated": "PG",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 73,
+    "Title": "Amadeus",
+    "Release": 1984,
+    "Runtime": "2h 40m",
+    "Rated": "PG",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 74,
+    "Title": "Toy Story",
+    "Release": 1995,
+    "Runtime": "1h 21m",
+    "Rated": "G",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 75,
+    "Title": "Avengers: Endgame",
+    "Release": 2019,
+    "Runtime": "3h 1m",
+    "Rated": "PG-13",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 76,
+    "Title": "Oldboy",
+    "Release": 2003,
+    "Runtime": "2h",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 77,
+    "Title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "Release": 1964,
+    "Runtime": "1h 35m",
+    "Rated": "PG",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 78,
+    "Title": "American Beauty",
+    "Release": 1999,
+    "Runtime": "2h 2m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 79,
+    "Title": "Good Will Hunting",
+    "Release": 1997,
+    "Runtime": "2h 6m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 80,
+    "Title": "Das Boot",
+    "Release": 1981,
+    "Runtime": "2h 29m",
+    "Rated": "Not Rated",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 81,
+    "Title": "Braveheart",
+    "Release": 1995,
+    "Runtime": "2h 58m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 82,
+    "Title": "Princess Mononoke",
+    "Release": 1997,
+    "Runtime": "2h 13m",
+    "Rated": "PG-13",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 83,
+    "Title": "Your Name.",
+    "Release": 2016,
+    "Runtime": "1h 46m",
+    "Rated": "Not Rated",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 84,
+    "Title": "High and Low",
+    "Release": 1963,
+    "Runtime": "2h 23m",
+    "Rated": "Not Rated",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 85,
+    "Title": "3 Idiots",
+    "Release": 2009,
+    "Runtime": "2h 50m",
+    "Rated": "PG-13",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 86,
+    "Title": "Joker",
+    "Release": 2019,
+    "Runtime": "2h 2m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 87,
+    "Title": "Once Upon a Time in America",
+    "Release": 1984,
+    "Runtime": "3h 49m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 88,
+    "Title": "Singin' in the Rain",
+    "Release": 1952,
+    "Runtime": "1h 43m",
+    "Rated": "G",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 89,
+    "Title": "Capernaum",
+    "Release": 2018,
+    "Runtime": "2h 6m",
+    "Rated": "R",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 90,
+    "Title": "Come and See",
+    "Release": 1985,
+    "Runtime": "2h 22m",
+    "Rated": "Not Rated",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 91,
+    "Title": "Requiem for a Dream",
+    "Release": 2000,
+    "Runtime": "1h 42m",
+    "Rated": "NC-17",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 92,
+    "Title": "Toy Story 3",
+    "Release": 2010,
+    "Runtime": "1h 43m",
+    "Rated": "G",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 93,
+    "Title": "Star Wars: Episode VI - Return of the Jedi",
+    "Release": 1983,
+    "Runtime": "2h 11m",
+    "Rated": "PG",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 94,
+    "Title": "The Hunt",
+    "Release": 2012,
+    "Runtime": "1h 55m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 95,
+    "Title": "Eternal Sunshine of the Spotless Mind",
+    "Release": 2004,
+    "Runtime": "1h 48m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 96,
+    "Title": "Ikiru",
+    "Release": 1952,
+    "Runtime": "2h 23m",
+    "Rated": "Not Rated",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 97,
+    "Title": "2001: A Space Odyssey",
+    "Release": 1968,
+    "Runtime": "2h 29m",
+    "Rated": "G",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 98,
+    "Title": "Reservoir Dogs",
+    "Release": 1992,
+    "Runtime": "1h 39m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 99,
+    "Title": "The Apartment",
+    "Release": 1960,
+    "Runtime": "2h 5m",
+    "Rated": "Approved",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 100,
+    "Title": "Lawrence of Arabia",
+    "Release": 1962,
+    "Runtime": "3h 47m",
+    "Rated": "PG",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 101,
+    "Title": "Incendies",
+    "Release": 2010,
+    "Runtime": "2h 11m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 102,
+    "Title": "Scarface",
+    "Release": 1983,
+    "Runtime": "2h 50m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 103,
+    "Title": "Double Indemnity",
+    "Release": 1944,
+    "Runtime": "1h 47m",
+    "Rated": "Approved",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 104,
+    "Title": "North by Northwest",
+    "Release": 1959,
+    "Runtime": "2h 16m",
+    "Rated": "Approved",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 105,
+    "Title": "Heat",
+    "Release": 1995,
+    "Runtime": "2h 50m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 106,
+    "Title": "Citizen Kane",
+    "Release": 1941,
+    "Runtime": "1h 59m",
+    "Rated": "PG",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 107,
+    "Title": "M",
+    "Release": 1931,
+    "Runtime": "1h 39m",
+    "Rated": "Passed",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 108,
+    "Title": "Up",
+    "Release": 2009,
+    "Runtime": "1h 36m",
+    "Rated": "PG",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 109,
+    "Title": "Full Metal Jacket",
+    "Release": 1987,
+    "Runtime": "1h 56m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 110,
+    "Title": "Vertigo",
+    "Release": 1958,
+    "Runtime": "2h 8m",
+    "Rated": "PG",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 111,
+    "Title": "Amélie",
+    "Release": 2001,
+    "Runtime": "2h 2m",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 112,
+    "Title": "Oppenheimer",
+    "Release": 2023,
+    "Runtime": "3h",
+    "Rated": "R",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 113,
+    "Title": "A Clockwork Orange",
+    "Release": 1971,
+    "Runtime": "2h 16m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 114,
+    "Title": "To Kill a Mockingbird",
+    "Release": 1962,
+    "Runtime": "2h 9m",
+    "Rated": "Approved",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 115,
+    "Title": "A Separation",
+    "Release": 2011,
+    "Runtime": "2h 3m",
+    "Rated": "PG-13",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 116,
+    "Title": "Die Hard",
+    "Release": 1988,
+    "Runtime": "2h 12m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 117,
+    "Title": "The Sting",
+    "Release": 1973,
+    "Runtime": "2h 9m",
+    "Rated": "PG",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 118,
+    "Title": "Like Stars on Earth",
+    "Release": 2007,
+    "Runtime": "2h 42m",
+    "Rated": "PG",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 119,
+    "Title": "Indiana Jones and the Last Crusade",
+    "Release": 1989,
+    "Runtime": "2h 7m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 120,
+    "Title": "Metropolis",
+    "Release": 1927,
+    "Runtime": "2h 33m",
+    "Rated": "Not Rated",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 121,
+    "Title": "Snatch",
+    "Release": 2000,
+    "Runtime": "1h 42m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 122,
+    "Title": 1917,
+    "Release": 2019,
+    "Runtime": "1h 59m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 123,
+    "Title": "L.A. Confidential",
+    "Release": 1997,
+    "Runtime": "2h 18m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 124,
+    "Title": "Bicycle Thieves",
+    "Release": 1948,
+    "Runtime": "1h 29m",
+    "Rated": "Not Rated",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 125,
+    "Title": "Downfall",
+    "Release": 2004,
+    "Runtime": "2h 36m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 126,
+    "Title": "Dangal",
+    "Release": 2016,
+    "Runtime": "2h 41m",
+    "Rated": "Not Rated",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 127,
+    "Title": "Taxi Driver",
+    "Release": 1976,
+    "Runtime": "1h 54m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 128,
+    "Title": "Hamilton",
+    "Release": 2020,
+    "Runtime": "2h 40m",
+    "Rated": "PG-13",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 129,
+    "Title": "The Wolf of Wall Street",
+    "Release": 2013,
+    "Runtime": "3h",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 130,
+    "Title": "Batman Begins",
+    "Release": 2005,
+    "Runtime": "2h 20m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 131,
+    "Title": "Green Book",
+    "Release": 2018,
+    "Runtime": "2h 10m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 132,
+    "Title": "For a Few Dollars More",
+    "Release": 1965,
+    "Runtime": "2h 12m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 133,
+    "Title": "Some Like It Hot",
+    "Release": 1959,
+    "Runtime": "2h 1m",
+    "Rated": "Approved",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 134,
+    "Title": "The Truman Show",
+    "Release": 1998,
+    "Runtime": "1h 43m",
+    "Rated": "PG",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 135,
+    "Title": "Judgment at Nuremberg",
+    "Release": 1961,
+    "Runtime": "2h 59m",
+    "Rated": "Approved",
+    "Ratings": 8.3
+  },
+  {
+    "Rank": 136,
+    "Title": "The Kid",
+    "Release": 1921,
+    "Runtime": "1h 8m",
+    "Rated": "Passed",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 137,
+    "Title": "The Father",
+    "Release": 2020,
+    "Runtime": "1h 37m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 138,
+    "Title": "Shutter Island",
+    "Release": 2010,
+    "Runtime": "2h 18m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 139,
+    "Title": "All About Eve",
+    "Release": 1950,
+    "Runtime": "2h 18m",
+    "Rated": "Approved",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 140,
+    "Title": "There Will Be Blood",
+    "Release": 2007,
+    "Runtime": "2h 38m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 141,
+    "Title": "Jurassic Park",
+    "Release": 1993,
+    "Runtime": "2h 7m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 142,
+    "Title": "Casino",
+    "Release": 1995,
+    "Runtime": "2h 58m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 143,
+    "Title": "The Sixth Sense",
+    "Release": 1999,
+    "Runtime": "1h 47m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 144,
+    "Title": "Ran",
+    "Release": 1985,
+    "Runtime": "2h 40m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 145,
+    "Title": "Top Gun: Maverick",
+    "Release": 2022,
+    "Runtime": "2h 10m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 146,
+    "Title": "No Country for Old Men",
+    "Release": 2007,
+    "Runtime": "2h 2m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 147,
+    "Title": "The Thing",
+    "Release": 1982,
+    "Runtime": "1h 49m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 148,
+    "Title": "Pan's Labyrinth",
+    "Release": 2006,
+    "Runtime": "1h 58m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 149,
+    "Title": "Unforgiven",
+    "Release": 1992,
+    "Runtime": "2h 10m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 150,
+    "Title": "A Beautiful Mind",
+    "Release": 2001,
+    "Runtime": "2h 15m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 151,
+    "Title": "Kill Bill: Vol. 1",
+    "Release": 2003,
+    "Runtime": "1h 51m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 152,
+    "Title": "The Treasure of the Sierra Madre",
+    "Release": 1948,
+    "Runtime": "2h 6m",
+    "Rated": "Approved",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 153,
+    "Title": "Yojimbo",
+    "Release": 1961,
+    "Runtime": "1h 50m",
+    "Rated": "Not Rated",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 154,
+    "Title": "Prisoners",
+    "Release": 2013,
+    "Runtime": "2h 33m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 155,
+    "Title": "Finding Nemo",
+    "Release": 2003,
+    "Runtime": "1h 40m",
+    "Rated": "G",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 156,
+    "Title": "The Great Escape",
+    "Release": 1963,
+    "Runtime": "2h 52m",
+    "Rated": "Approved",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 157,
+    "Title": "Monty Python and the Holy Grail",
+    "Release": 1975,
+    "Runtime": "1h 31m",
+    "Rated": "PG",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 158,
+    "Title": "Howl's Moving Castle",
+    "Release": 2004,
+    "Runtime": "1h 59m",
+    "Rated": "PG",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 159,
+    "Title": "The Elephant Man",
+    "Release": 1980,
+    "Runtime": "2h 4m",
+    "Rated": "PG",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 160,
+    "Title": "The Wild Robot",
+    "Release": 2024,
+    "Runtime": "1h 42m",
+    "Rated": "PG",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 161,
+    "Title": "Dial M for Murder",
+    "Release": 1954,
+    "Runtime": "1h 45m",
+    "Rated": "PG",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 162,
+    "Title": "Rashomon",
+    "Release": 1950,
+    "Runtime": "1h 28m",
+    "Rated": "Not Rated",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 163,
+    "Title": "Gone with the Wind",
+    "Release": 1939,
+    "Runtime": "3h 58m",
+    "Rated": "G",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 164,
+    "Title": "Chinatown",
+    "Release": 1974,
+    "Runtime": "2h 10m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 165,
+    "Title": "The Secret in Their Eyes",
+    "Release": 2009,
+    "Runtime": "2h 9m",
+    "Rated": "R",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 166,
+    "Title": "Lock, Stock and Two Smoking Barrels",
+    "Release": 1998,
+    "Runtime": "1h 47m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 167,
+    "Title": "Klaus",
+    "Release": 2019,
+    "Runtime": "1h 36m",
+    "Rated": "PG",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 168,
+    "Title": "V for Vendetta",
+    "Release": 2005,
+    "Runtime": "2h 12m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 169,
+    "Title": "Inside Out",
+    "Release": 2015,
+    "Runtime": "1h 35m",
+    "Rated": "PG",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 170,
+    "Title": "Three Billboards Outside Ebbing, Missouri",
+    "Release": 2017,
+    "Runtime": "1h 55m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 171,
+    "Title": "Raging Bull",
+    "Release": 1980,
+    "Runtime": "2h 9m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 172,
+    "Title": "Trainspotting",
+    "Release": 1996,
+    "Runtime": "1h 33m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 173,
+    "Title": "The Bridge on the River Kwai",
+    "Release": 1957,
+    "Runtime": "2h 41m",
+    "Rated": "PG",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 174,
+    "Title": "Catch Me If You Can",
+    "Release": 2002,
+    "Runtime": "2h 21m",
+    "Rated": "PG-13",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 175,
+    "Title": "Fargo",
+    "Release": 1996,
+    "Runtime": "1h 38m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 176,
+    "Title": "Warrior",
+    "Release": 2011,
+    "Runtime": "2h 20m",
+    "Rated": "PG-13",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 177,
+    "Title": "Harry Potter and the Deathly Hallows: Part 2",
+    "Release": 2011,
+    "Runtime": "2h 10m",
+    "Rated": "PG-13",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 178,
+    "Title": "Gran Torino",
+    "Release": 2008,
+    "Runtime": "1h 56m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 179,
+    "Title": "Spider-Man: No Way Home",
+    "Release": 2021,
+    "Runtime": "2h 28m",
+    "Rated": "PG-13",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 180,
+    "Title": "Million Dollar Baby",
+    "Release": 2004,
+    "Runtime": "2h 12m",
+    "Rated": "PG-13",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 181,
+    "Title": "My Neighbor Totoro",
+    "Release": 1988,
+    "Runtime": "1h 26m",
+    "Rated": "G",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 182,
+    "Title": "Mad Max: Fury Road",
+    "Release": 2015,
+    "Runtime": "2h",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 183,
+    "Title": "Ben-Hur",
+    "Release": 1959,
+    "Runtime": "3h 32m",
+    "Rated": "G",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 184,
+    "Title": "Children of Heaven",
+    "Release": 1997,
+    "Runtime": "1h 29m",
+    "Rated": "PG",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 185,
+    "Title": "Barry Lyndon",
+    "Release": 1975,
+    "Runtime": "3h 5m",
+    "Rated": "PG",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 186,
+    "Title": "12 Years a Slave",
+    "Release": 2013,
+    "Runtime": "2h 14m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 187,
+    "Title": "Before Sunrise",
+    "Release": 1995,
+    "Runtime": "1h 41m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 188,
+    "Title": "Blade Runner",
+    "Release": 1982,
+    "Runtime": "1h 57m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 189,
+    "Title": "The Grand Budapest Hotel",
+    "Release": 2014,
+    "Runtime": "1h 39m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 190,
+    "Title": "Dead Poets Society",
+    "Release": 1989,
+    "Runtime": "2h 8m",
+    "Rated": "PG",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 191,
+    "Title": "Hacksaw Ridge",
+    "Release": 2016,
+    "Runtime": "2h 19m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 192,
+    "Title": "Gone Girl",
+    "Release": 2014,
+    "Runtime": "2h 29m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 193,
+    "Title": "Memories of Murder",
+    "Release": 2003,
+    "Runtime": "2h 12m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 194,
+    "Title": "In the Name of the Father",
+    "Release": 1993,
+    "Runtime": "2h 13m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 195,
+    "Title": "Monsters, Inc.",
+    "Release": 2001,
+    "Runtime": "1h 32m",
+    "Rated": "G",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 196,
+    "Title": "The Gold Rush",
+    "Release": 1925,
+    "Runtime": "1h 35m",
+    "Rated": "Approved",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 197,
+    "Title": "Ratatouille",
+    "Release": 2007,
+    "Runtime": "1h 51m",
+    "Rated": "G",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 198,
+    "Title": "Wild Tales",
+    "Release": 2014,
+    "Runtime": "2h 2m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 199,
+    "Title": "How to Train Your Dragon",
+    "Release": 2010,
+    "Runtime": "1h 38m",
+    "Rated": "PG",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 200,
+    "Title": "Jaws",
+    "Release": 1975,
+    "Runtime": "2h 4m",
+    "Rated": "PG",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 201,
+    "Title": "Sherlock Jr.",
+    "Release": 1924,
+    "Runtime": "45m",
+    "Rated": "Passed",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 202,
+    "Title": "The Deer Hunter",
+    "Release": 1978,
+    "Runtime": "3h 3m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 203,
+    "Title": "Mary and Max",
+    "Release": 2009,
+    "Runtime": "1h 32m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 204,
+    "Title": "The General",
+    "Release": 1926,
+    "Runtime": "1h 18m",
+    "Rated": "Passed",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 205,
+    "Title": "The Wages of Fear",
+    "Release": 1953,
+    "Runtime": "2h 36m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 206,
+    "Title": "Ford v Ferrari",
+    "Release": 2019,
+    "Runtime": "2h 32m",
+    "Rated": "PG-13",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 207,
+    "Title": "On the Waterfront",
+    "Release": 1954,
+    "Runtime": "1h 48m",
+    "Rated": "Approved",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 208,
+    "Title": "Maharaja",
+    "Release": 2024,
+    "Runtime": "2h 21m",
+    "Rated": "Not Rated",
+    "Ratings": 8.4
+  },
+  {
+    "Rank": 209,
+    "Title": "Mr. Smith Goes to Washington",
+    "Release": 1939,
+    "Runtime": "2h 9m",
+    "Rated": "Approved",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 210,
+    "Title": "Wild Strawberries",
+    "Release": 1957,
+    "Runtime": "1h 32m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 211,
+    "Title": "Demon Slayer: Kimetsu no Yaiba - Tsuzumi Mansion Arc",
+    "Release": 2021,
+    "Runtime": "1h 27m",
+    "Rated": "Not Rated",
+    "Ratings": 8.6
+  },
+  {
+    "Rank": 212,
+    "Title": "The Third Man",
+    "Release": 1949,
+    "Runtime": "1h 44m",
+    "Rated": "Approved",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 213,
+    "Title": "Logan",
+    "Release": 2017,
+    "Runtime": "2h 17m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 214,
+    "Title": "Rocky",
+    "Release": 1976,
+    "Runtime": "2h",
+    "Rated": "PG",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 215,
+    "Title": "Tokyo Story",
+    "Release": 1953,
+    "Runtime": "2h 17m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 216,
+    "Title": "The Big Lebowski",
+    "Release": 1998,
+    "Runtime": "1h 57m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 217,
+    "Title": "Spotlight",
+    "Release": 2015,
+    "Runtime": "2h 9m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 218,
+    "Title": "The Seventh Seal",
+    "Release": 1957,
+    "Runtime": "1h 36m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 219,
+    "Title": "Room",
+    "Release": 2015,
+    "Runtime": "1h 58m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 220,
+    "Title": "The Terminator",
+    "Release": 1984,
+    "Runtime": "1h 47m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 221,
+    "Title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "Release": 2003,
+    "Runtime": "2h 23m",
+    "Rated": "PG-13",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 222,
+    "Title": "Hotel Rwanda",
+    "Release": 2004,
+    "Runtime": "2h 1m",
+    "Rated": "PG-13",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 223,
+    "Title": "Platoon",
+    "Release": 1986,
+    "Runtime": "2h",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 224,
+    "Title": "La haine",
+    "Release": 1995,
+    "Runtime": "1h 38m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 225,
+    "Title": "Jai Bhim",
+    "Release": 2021,
+    "Runtime": "2h 44m",
+    "Rated": "Approved",
+    "Ratings": 8.7
+  },
+  {
+    "Rank": 226,
+    "Title": "Before Sunset",
+    "Release": 2004,
+    "Runtime": "1h 20m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 227,
+    "Title": "The Best Years of Our Lives",
+    "Release": 1946,
+    "Runtime": "2h 50m",
+    "Rated": "Approved",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 228,
+    "Title": "The Passion of Joan of Arc",
+    "Release": 1928,
+    "Runtime": "1h 54m",
+    "Rated": "Passed",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 229,
+    "Title": "The Exorcist",
+    "Release": 1973,
+    "Runtime": "2h 2m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 230,
+    "Title": "The Wizard of Oz",
+    "Release": 1939,
+    "Runtime": "1h 42m",
+    "Rated": "G",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 231,
+    "Title": "The Incredibles",
+    "Release": 2004,
+    "Runtime": "1h 55m",
+    "Rated": "PG",
+    "Ratings": 8
+  },
+  {
+    "Rank": 232,
+    "Title": "Rush",
+    "Release": 2013,
+    "Runtime": "2h 3m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 233,
+    "Title": "The Sound of Music",
+    "Release": 1965,
+    "Runtime": "2h 52m",
+    "Rated": "G",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 234,
+    "Title": "Stand by Me",
+    "Release": 1986,
+    "Runtime": "1h 29m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 235,
+    "Title": "Hachi: A Dog's Tale",
+    "Release": 2009,
+    "Runtime": "1h 33m",
+    "Rated": "G",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 236,
+    "Title": "Network",
+    "Release": 1976,
+    "Runtime": "2h 1m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 237,
+    "Title": "My Father and My Son",
+    "Release": 2005,
+    "Runtime": "1h 52m",
+    "Rated": "Not Rated",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 238,
+    "Title": "The Handmaiden",
+    "Release": 2016,
+    "Runtime": "2h 25m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 239,
+    "Title": "To Be or Not to Be",
+    "Release": 1942,
+    "Runtime": "1h 39m",
+    "Rated": "Approved",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 240,
+    "Title": "The Iron Giant",
+    "Release": 1999,
+    "Runtime": "1h 26m",
+    "Rated": "PG",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 241,
+    "Title": "The Battle of Algiers",
+    "Release": 1966,
+    "Runtime": "2h 1m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 242,
+    "Title": "Into the Wild",
+    "Release": 2007,
+    "Runtime": "2h 28m",
+    "Rated": "R",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 243,
+    "Title": "The Grapes of Wrath",
+    "Release": 1940,
+    "Runtime": "2h 9m",
+    "Rated": "Approved",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 244,
+    "Title": "Groundhog Day",
+    "Release": 1993,
+    "Runtime": "1h 41m",
+    "Rated": "PG",
+    "Ratings": 8
+  },
+  {
+    "Rank": 245,
+    "Title": "A Man Escaped",
+    "Release": 1956,
+    "Runtime": "1h 41m",
+    "Rated": "Not Rated",
+    "Ratings": 8.2
+  },
+  {
+    "Rank": 246,
+    "Title": "Amores Perros",
+    "Release": 2000,
+    "Runtime": "2h 34m",
+    "Rated": "R",
+    "Ratings": 8
+  },
+  {
+    "Rank": 247,
+    "Title": "The Help",
+    "Release": 2011,
+    "Runtime": "2h 26m",
+    "Rated": "PG-13",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 248,
+    "Title": "Rebecca",
+    "Release": 1940,
+    "Runtime": "2h 10m",
+    "Rated": "Approved",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 249,
+    "Title": "A Silent Voice: The Movie",
+    "Release": 2016,
+    "Runtime": "2h 10m",
+    "Rated": "Not Rated",
+    "Ratings": 8.1
+  },
+  {
+    "Rank": 250,
+    "Title": "Andhadhun",
+    "Release": 2018,
+    "Runtime": "2h 19m",
+    "Rated": "Not Rated",
+    "Ratings": 8.2
+  }
+]

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaRank - Top Movies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        
+        .movie-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .movie-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .rating-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .rank-badge {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .search-box {
+            backdrop-filter: blur(16px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .stagger-animation {
+            animation-delay: calc(var(--index) * 0.1s);
+        }
+
+        .loading-shimmer {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+
+        .genre-tag {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 min-h-screen">
+    <!-- Header -->
+    <header class="hero-gradient text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-4">
+                    <i class="fas fa-film mr-3"></i>CinemaRank
+                </h1>
+                <p class="text-xl opacity-90 mb-8">Discover the Greatest Movies of All Time</p>
+                
+                <!-- Search and Filter Controls -->
+                <div class="max-w-2xl mx-auto">
+                    <div class="relative mb-6">
+                        <input type="text" id="searchInput" placeholder="Search movies..." 
+                               class="search-box w-full px-6 py-4 rounded-2xl text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                        <i class="fas fa-search absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-300"></i>
+                    </div>
+                    
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <select id="sortBy" class="search-box px-4 py-2 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                            <option value="rank">Sort by Rank</option>
+                            <option value="rating">Sort by Rating</option>
+                            <option value="year">Sort by Year</option>
+                            <option value="title">Sort by Title</option>
+                        </select>
+                        
+                        <select id="filterRating" class="search-box px-4 py-2 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                            <option value="all">All Ratings</option>
+                            <option value="R">R Rated</option>
+                            <option value="PG-13">PG-13</option>
+                            <option value="PG">PG</option>
+                            <option value="Approved">Approved</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="py-8 bg-black bg-opacity-20">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center text-white">
+                <div class="bg-white bg-opacity-10 rounded-xl p-6 backdrop-filter backdrop-blur-lg">
+                    <div class="text-3xl font-bold" id="totalMovies">0</div>
+                    <div class="text-sm opacity-75">Total Movies</div>
+                </div>
+                <div class="bg-white bg-opacity-10 rounded-xl p-6 backdrop-filter backdrop-blur-lg">
+                    <div class="text-3xl font-bold" id="avgRating">0</div>
+                    <div class="text-sm opacity-75">Average Rating</div>
+                </div>
+                <div class="bg-white bg-opacity-10 rounded-xl p-6 backdrop-filter backdrop-blur-lg">
+                    <div class="text-3xl font-bold" id="topDecade">-</div>
+                    <div class="text-sm opacity-75">Top Decade</div>
+                </div>
+                <div class="bg-white bg-opacity-10 rounded-xl p-6 backdrop-filter backdrop-blur-lg">
+                    <div class="text-3xl font-bold" id="longestRuntime">-</div>
+                    <div class="text-sm opacity-75">Longest Runtime</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading State -->
+    <div id="loadingState" class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="loading-shimmer rounded-2xl h-64"></div>
+            <div class="loading-shimmer rounded-2xl h-64"></div>
+            <div class="loading-shimmer rounded-2xl h-64"></div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12" id="mainContent" style="display: none;">
+        <div id="moviesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Movies will be populated here -->
+        </div>
+        
+        <!-- No Results Message -->
+        <div id="noResults" class="text-center py-12 hidden">
+            <i class="fas fa-search text-6xl text-gray-400 mb-4"></i>
+            <h3 class="text-2xl font-semibold text-white mb-2">No movies found</h3>
+            <p class="text-gray-400">Try adjusting your search or filter criteria</p>
+        </div>
+    </main>
+
+    <script>
+        let moviesData = [];
+        let filteredData = [];
+
+        // DOM Elements
+        const searchInput = document.getElementById('searchInput');
+        const sortBy = document.getElementById('sortBy');
+        const filterRating = document.getElementById('filterRating');
+        const moviesGrid = document.getElementById('moviesGrid');
+        const loadingState = document.getElementById('loadingState');
+        const mainContent = document.getElementById('mainContent');
+        const noResults = document.getElementById('noResults');
+
+        // Load data from JSON file
+        async function loadMoviesData() {
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load data.json');
+                }
+                moviesData = await response.json();
+                filteredData = [...moviesData];
+                
+                // Hide loading, show content
+                loadingState.style.display = 'none';
+                mainContent.style.display = 'block';
+                
+                updateStats();
+                renderMovies();
+            } catch (error) {
+                console.error('Error loading movies data:', error);
+                // Fallback to the provided data
+                moviesData = [
+                    {"Rank": 1, "Title": "The Shawshank Redemption", "Release": 1994, "Runtime": "2h 22m", "Rated": "R", "Ratings": 9.3},
+                    {"Rank": 2, "Title": "The Godfather", "Release": 1972, "Runtime": "2h 55m", "Rated": "R", "Ratings": 9.2},
+                    {"Rank": 3, "Title": "The Dark Knight", "Release": 2008, "Runtime": "2h 32m", "Rated": "PG-13", "Ratings": 9.0},
+                    {"Rank": 4, "Title": "The Godfather Part II", "Release": 1974, "Runtime": "3h 22m", "Rated": "R", "Ratings": 9.0},
+                    {"Rank": 5, "Title": "12 Angry Men", "Release": 1957, "Runtime": "1h 36m", "Rated": "Approved", "Ratings": 9.0},
+                    {"Rank": 6, "Title": "The Lord of the Rings: The Return of the King", "Release": 2003, "Runtime": "3h 21m", "Rated": "PG-13", "Ratings": 9.0},
+                    {"Rank": 7, "Title": "Schindler's List", "Release": 1993, "Runtime": "3h 15m", "Rated": "R", "Ratings": 9.0},
+                    {"Rank": 8, "Title": "Pulp Fiction", "Release": 1994, "Runtime": "2h 34m", "Rated": "R", "Ratings": 8.9},
+                    {"Rank": 9, "Title": "The Lord of the Rings: The Fellowship of the Ring", "Release": 2001, "Runtime": "2h 58m", "Rated": "PG-13", "Ratings": 8.9},
+                    {"Rank": 10, "Title": "The Good, the Bad and the Ugly", "Release": 1966, "Runtime": "2h 58m", "Rated": "R", "Ratings": 8.8},
+                    {"Rank": 11, "Title": "Forrest Gump", "Release": 1994, "Runtime": "2h 22m", "Rated": "PG-13", "Ratings": 8.8},
+                    {"Rank": 12, "Title": "The Lord of the Rings: The Two Towers", "Release": 2002, "Runtime": "2h 59m", "Rated": "PG-13", "Ratings": 8.8},
+                    {"Rank": 13, "Title": "Fight Club", "Release": 1999, "Runtime": "2h 19m", "Rated": "R", "Ratings": 8.8}
+                ];
+                filteredData = [...moviesData];
+                
+                loadingState.style.display = 'none';
+                mainContent.style.display = 'block';
+                
+                updateStats();
+                renderMovies();
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            const totalMovies = moviesData.length;
+            const avgRating = (moviesData.reduce((sum, movie) => sum + movie.Ratings, 0) / totalMovies).toFixed(1);
+            
+            // Find most common decade
+            const decades = moviesData.map(movie => Math.floor(movie.Release / 10) * 10 + 's');
+            const decadeCount = decades.reduce((acc, decade) => {
+                acc[decade] = (acc[decade] || 0) + 1;
+                return acc;
+            }, {});
+            const topDecade = Object.keys(decadeCount).reduce((a, b) => decadeCount[a] > decadeCount[b] ? a : b);
+            
+            // Find longest runtime
+            const longestRuntime = moviesData.reduce((longest, movie) => {
+                const runtime = movie.Runtime;
+                return runtime.length > longest.length ? runtime : longest;
+            }, '');
+
+            document.getElementById('totalMovies').textContent = totalMovies;
+            document.getElementById('avgRating').textContent = avgRating;
+            document.getElementById('topDecade').textContent = topDecade;
+            document.getElementById('longestRuntime').textContent = longestRuntime;
+        }
+
+        // Render movies grid
+        function renderMovies() {
+            if (filteredData.length === 0) {
+                moviesGrid.innerHTML = '';
+                noResults.classList.remove('hidden');
+                return;
+            }
+
+            noResults.classList.add('hidden');
+            
+            moviesGrid.innerHTML = filteredData.map((movie, index) => `
+                <div class="movie-card bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-2xl p-6 text-white fade-in stagger-animation" style="--index: ${index}">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="rank-badge text-white px-3 py-1 rounded-full text-sm font-bold">
+                            #${movie.Rank}
+                        </div>
+                        <div class="rating-badge text-white px-3 py-1 rounded-full text-sm font-bold flex items-center">
+                            <i class="fas fa-star mr-1"></i>
+                            ${movie.Ratings}
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-xl font-bold mb-3 leading-tight">${movie.Title}</h3>
+                    
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Year</span>
+                            <span class="font-semibold">${movie.Release}</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Runtime</span>
+                            <span class="font-semibold">${movie.Runtime}</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Rated</span>
+                            <span class="genre-tag px-2 py-1 rounded-md text-xs font-medium">${movie.Rated}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4 pt-4 border-t border-white border-opacity-20">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-1">
+                                ${Array.from({length: 5}, (_, i) => `
+                                    <i class="fas fa-star text-yellow-400 ${i < Math.floor(movie.Ratings)} ? '' : 'opacity-30'"></i>
+                                `).join('')}
+                            </div>
+                            <button class="bg-white bg-opacity-20 hover:bg-opacity-30 px-3 py-1 rounded-lg text-xs font-medium transition-all duration-200">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Filter and search functionality
+        function filterAndSearchMovies() {
+            let filtered = [...moviesData];
+            
+            // Apply search filter
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            if (searchTerm) {
+                filtered = filtered.filter(movie => 
+                    movie.Title.toLowerCase().includes(searchTerm)
+                );
+            }
+            
+            // Apply rating filter
+            const ratingFilter = filterRating.value;
+            if (ratingFilter !== 'all') {
+                filtered = filtered.filter(movie => movie.Rated === ratingFilter);
+            }
+            
+            // Apply sorting
+            const sortCriteria = sortBy.value;
+            filtered.sort((a, b) => {
+                switch(sortCriteria) {
+                    case 'rating':
+                        return b.Ratings - a.Ratings;
+                    case 'year':
+                        return b.Release - a.Release;
+                    case 'title':
+                        return a.Title.localeCompare(b.Title);
+                    default:
+                        return a.Rank - b.Rank;
+                }
+            });
+            
+            filteredData = filtered;
+            renderMovies();
+        }
+
+        // Event listeners
+        searchInput.addEventListener('input', filterAndSearchMovies);
+        sortBy.addEventListener('change', filterAndSearchMovies);
+        filterRating.addEventListener('change', filterAndSearchMovies);
+
+        // Initialize app
+        loadMoviesData();
+    </script>
+</body>
+</html>
